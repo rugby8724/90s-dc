@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+}
+
+.nav-bar{
+  margin-top: 0px;
+  height: 30px;
+  background-color: black;
+}
+
+.nav-item{
+  display: inline;
+  position: relative;
+  left: 65%;
+  margin: 2px 4px;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bolder;
+}
+
+/* Home Page */
+
+#home{
+  background-image: url('https://wallpaperboat.com/wp-content/uploads/2019/06/90s-04.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.home-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.home-item{
+  height: 300px;
+  width: 100%;
+  position: relative;
+  left: 50%;
+  overflow: hidden;
+}
+
+
+.home-img {
+  height: 200px;
+  width: 400px;
+  transition: transform .7s ease;
+}
+
+.home-item:hover img {
+  transform: scale(1.2);
+}
+
+/* Movie Page */
+
+#movies {
+  background-image: url('https://media.kidadl.com/5ff72b26675ad915f5fac38e_a_trip_to_the_cinema_is_always_exciting_11450a917d.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.movie {
+  text-align: center;
+
+}
+
+
+.movie-img {
+  width: 200px;
+  height: auto;
+}
+
+.movie-details {
+  display: inline-block;
+  font-size: 2em;
+  position: relative;
+  bottom: 50%;
+  margin-top: -100px;
+
+}
+
+/* Music Page */
+
+#music {
+  background-image: url('https://thumbs.dreamstime.com/b/beautiful-blue-bright-glowing-abstract-neon-icon-signboard-old-retro-vintage-audio-cassette-recorder-s-copy-137534843.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(248, 8, 0);
+}
+
+.music-container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  right: 10%;
+}
+
+.music-title {
+  font-size: 2em;
+  position: relative;
+  left: 10%;
+}
+
+
+
+.music-item{
+  height: 300px;
+  width: 100%;
+  position: relative;
+  left: 50%;
+}
+
+
+.music-img {
+  height: 200px;
+  width: 400px;
+}
+
+
+#tv {
+  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/990135715668449488/426E2CAE8EFC632A9B75DFDC773391315E556D75/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.show{
+  position: relative;
+  left: 40%;
+}
+
+.show-img {
+  height: 200px;
+  width: 400px;
+}
+
+#pop-culture{
+  background-image: url('https://cdn.greenvelope.com/blog/wp-content/uploads/image6-6.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.pop-title{
+  position: relative;
+  left: 45%;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.pop-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.pop-item{
+  height: 300px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
+
+
